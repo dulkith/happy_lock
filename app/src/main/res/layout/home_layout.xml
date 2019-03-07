@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="false"
+    android:layout_centerInParent="false"
+    android:layout_centerVertical="false"
+    android:background="#1E1E1E"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="lk.ac.iit.happy_lock.HomeActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="640dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="127dp"
+        android:layout_toStartOf="@+id/textView4"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/home_wallpaper" />
+
+    <com.skyfishjy.library.RippleBackground xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/content_speak"
+        android:layout_width="371dp"
+        android:layout_height="261dp"
+        android:layout_x="0dp"
+        android:layout_y="267dp"
+        app:rb_color="#75ff0004"
+        app:rb_duration="4000"
+        app:rb_radius="20dp"
+        app:rb_rippleAmount="4"
+        app:rb_scale="6">
+
+        <ImageButton
+            android:id="@+id/btnSpeak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_x="117dp"
+            android:layout_y="278dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/voice_control_icon"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="130dp" />
+    </com.skyfishjy.library.RippleBackground>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="464dp"
+        android:text="Voice Commands:"
+        android:textColor="#767676"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <TextView
+        android:id="@+id/voiceInput"
+        android:layout_width="313dp"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_x="33dp"
+        android:layout_y="478dp"
+        android:textAlignment="inherit"
+        android:textColor="#808080"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        android:visibility="invisible"
+        tools:text="......" />
+
+    <TextView
+        android:id="@+id/voiceInput2"
+        android:layout_width="320dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_x="34dp"
+        android:layout_y="416dp"
+        android:textSize="26sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="264dp"
+        android:layout_height="63dp"
+        android:layout_x="52dp"
+        android:layout_y="102dp"
+        android:src="@drawable/logo_welcome"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+</AbsoluteLayout>

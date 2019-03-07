@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "358311866156",
+    "firebase_url": "https://happy-lock-1527825258557.firebaseio.com",
+    "project_id": "happy-lock-1527825258557",
+    "storage_bucket": "happy-lock-1527825258557.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358311866156:android:74dde14404b6965b",
+        "android_client_info": {
+          "package_name": "lk.ac.iit.firebase_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358311866156-2g43pmudknj04o0fes1rqtmprn4rtthm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lk.ac.iit.firebase_app",
+            "certificate_hash": "009e74792d45538f00da596f2b01b5326b476879"
+          }
+        },
+        {
+          "client_id": "358311866156-ibe55fmpjpaphr5p7709k8pgu30i22gm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "358311866156-ibe55fmpjpaphr5p7709k8pgu30i22gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx47f6OnYtQQMHuwLNbAFvFtfheeCC-Iw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358311866156-ibe55fmpjpaphr5p7709k8pgu30i22gm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358311866156:android:5de7ffe2361cb74c",
+        "android_client_info": {
+          "package_name": "lk.ac.iit.happy_lock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358311866156-a9a7kq7ceht89ns595gkitfv8fch37tf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lk.ac.iit.happy_lock",
+            "certificate_hash": "009e74792d45538f00da596f2b01b5326b476879"
+          }
+        },
+        {
+          "client_id": "358311866156-ibe55fmpjpaphr5p7709k8pgu30i22gm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "358311866156-ibe55fmpjpaphr5p7709k8pgu30i22gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx47f6OnYtQQMHuwLNbAFvFtfheeCC-Iw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358311866156-ibe55fmpjpaphr5p7709k8pgu30i22gm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
